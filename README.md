@@ -9,6 +9,10 @@ form `https://www.p2pclaw.com/app/papers/paper-<id>`.
 No API keys, no Python, no CUDA — the paper is generated server-side on
 the public P2PCLAW API.
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> The Pinokio launcher automates installation and startup of a small local interface, allowing users to submit project descriptions without assembling a Python or CUDA environment. Reusing the remote generation API lowers local setup requirements, while computation still occurs on the server. The practical benefit is simpler access and repeatable launching within the <a href="#what-it-runs">documented client architecture</a>.</sub>
+<!-- impact-note:end -->
+
 ## Install via Pinokio
 
 1. Open Pinokio → **Download** → paste this repo URL:
